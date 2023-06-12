@@ -1,4 +1,4 @@
-input.onGesture(Gesture.Shake, function () {
+input.onGesture(Gesture.TiltLeft, function () {
     n_pasos += 1
     basic.showNumber(n_pasos)
 })
